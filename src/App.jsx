@@ -13,7 +13,7 @@ import {
   Footer,
 } from "./components";
 const App = () => (
-  <div className="bg-primary w-full overflow-hidden text-secondary">
+  <div className="bg-primary w-full overflow-hidden text-primary">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
@@ -28,7 +28,7 @@ const App = () => (
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Stats /> <Business /> <Billing /> <CardDeal /> <Testimonials />{" "}
+        <Stats /> <Business /> <Billing /> <CardDeal /> <Testimonials />
         <Clients /> <CTA /> <Footer />
       </div>
     </div>
