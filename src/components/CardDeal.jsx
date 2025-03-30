@@ -18,6 +18,7 @@ const CardDeal = () => {
           <Button styles="mt-10" />
         </div>
         <div className={layout.sectionImg}>
+          <h1>Hi</h1>
           <img src={card} className="w-[100%] h-[100%] object-contain" alt="" />
         </div>
       </section>
